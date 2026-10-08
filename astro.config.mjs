@@ -13,7 +13,7 @@ export default defineConfig({
   // • No custom domain (project page at <user>.github.io/<repo>): instead use
   //   site: 'https://<user>.github.io' and base: '/<repo>', and delete public/CNAME.
   site: 'https://ur-robotics-society.github.io',
-  base: '/robotics-society',
+  // base: '/robotics-society',
   vite: {
     plugins: [tailwindcss()]
   },
